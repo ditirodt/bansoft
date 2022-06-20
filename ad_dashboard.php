@@ -1,20 +1,13 @@
 <?php 
-session_start();
-include('php/login.php');
 include('php/read.php');
-
-if (isset($_GET['logout'])) {
-	session_destroy();
-	unset($_SESSION['user']);
-	header("location: index.php");
-}
+session_start();
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Home</title>
-	<link rel="stylesheet" href="../assets/style.css">
+	<link rel="stylesheet" href="/assets/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
 </head>
@@ -46,7 +39,7 @@ if (isset($_GET['logout'])) {
 			</div>
 		<?php endif ?>
 
-		<!-- logged in user information -->
+		
 				
 		</div>
         <div class="box">

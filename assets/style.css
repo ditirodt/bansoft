@@ -1,0 +1,38 @@
+body{
+    background-color: beige;
+}
+
+.form-wrapper{
+    border-radius: 7px;
+}
+
+.form-wrapper label{
+    font-weight: bold;
+}
+
+.errors li{
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+.errors ul{
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+.box{
+    width: 750px;
+}
+
+.content form {
+	width: 500px;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.content table{
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
