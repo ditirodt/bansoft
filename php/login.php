@@ -46,15 +46,16 @@ if(isset($_POST['email']) && isset($_POST['password'])){
               $_SESSION['password'] = $row['password'];
               $_SESSION['user_tye'] = $row['user_type'];
               $_SESSION['success']  = "You are now logged in";
-              header('location: dashboard.php');
+              header('location: ../dashboard.php');	
+              
             }
           }else {
-            header("Location: ../index.php?error= Incorrect email or password");
+            header("Location: ./index.php?error= Incorrect email or password");
           }
 
 
               }
 
 }else{
-    header("Location: ../index.php");
+    header("Location: ./index.php");
 }
